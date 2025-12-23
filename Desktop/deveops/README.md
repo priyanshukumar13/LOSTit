@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
+HELLO WORLD 2
+hello world
 # LOSTit - Smart Serverless Lost & Found System 🔍
 
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue)
@@ -35,13 +33,10 @@
 - **QR Code Identity**: Every item gets a unique QR code. Scanners can verify ownership instantly.
 - **Privacy First**: Contact details are masked until a claim is verified.
 
-<<<<<<< HEAD
-=======
 ### 🧩 Ecosystem
 - **Web Dashboard**: Responsive React application for reporting and browsing.
 - **Chrome Extension**: "LOSTit Companion" for checking lost items while browsing the web.
 
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 ---
 
 ## ⚙️ Technical Architecture
@@ -49,13 +44,6 @@
 The application follows a modern Event-Driven Serverless architecture:
 
 1.  **Frontend (React/Vite)**: Connects to AWS via REST/HTTP calls.
-<<<<<<< HEAD
-2.  **API Layer**: AWS Lambda Function URLs.
-3.  **Storage**: 
-    - Images -> Direct upload to **S3** (Client-side signed URL).
-    - Metadata -> Stored in **DynamoDB**.
-4.  **AI Engine**: Frontend communicates directly with **Google Gemini API**.
-=======
 2.  **API Layer**: AWS Lambda Function URLs (Bypassing heavy API Gateway for lower latency in sandbox).
 3.  **Storage**: 
     - Images -> Direct upload to **S3** (Client-side signed URL).
@@ -63,18 +51,13 @@ The application follows a modern Event-Driven Serverless architecture:
 4.  **AI Engine**: Frontend communicates directly with **Google Gemini API** for:
     - Image Analysis (Gemini 2.5 Flash)
     - Conversational Support (Gemini 3 Pro)
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-<<<<<<< HEAD
-- Node.js (v18+)
-=======
 - Node.js (v16+)
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 - AWS Account (Sandbox or Personal)
 - Google Gemini API Key
 
@@ -88,31 +71,10 @@ npm install
 ```
 
 ### 2. Configuration
-<<<<<<< HEAD
-Create a `.env` file in the root with your AWS + Gemini values:
-```env
-# Google Gemini
-VITE_GEMINI_API_KEY=your_google_gemini_key
-
-# AWS Cognito (Hosted UI)
-VITE_COGNITO_REGION=us-east-1
-VITE_COGNITO_USER_POOL_ID=us-east-1_XXXXXXXXX
-VITE_COGNITO_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
-VITE_COGNITO_DOMAIN=your-domain.auth.us-east-1.amazoncognito.com
-VITE_COGNITO_IDENTITY_POOL_ID=us-east-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-
-# API Gateway / Lambda function URL
-VITE_API_BASE_URL=https://your-lambda-or-apigw-url.on.aws
-
-# S3 bucket for images
-VITE_S3_BUCKET=lostit-images-production
-VITE_S3_REGION=us-east-1
-=======
 Create a `.env` file in the root (optional, or hardcode in `api.ts` for demo):
 ```env
 VITE_API_URL=https://your-lambda-url.us-east-1.on.aws/
 API_KEY=your_google_gemini_key
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 ```
 
 ### 3. Run the Web App
@@ -123,11 +85,6 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-<<<<<<< HEAD
-## 🛡 License
-
-This project is licensed for educational use.
-=======
 ## 🧩 Installing the Chrome Extension
 
 1.  Open Chrome and navigate to `chrome://extensions/`.
@@ -186,4 +143,3 @@ This role has `AdministratorAccess` pre-configured and will allow your Lambda to
 ## 🛡 License
 
 This project is licensed for educational use.
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
