@@ -24,7 +24,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="lg:col-span-5 text-center lg:text-left animate-reveal order-2 lg:order-1">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50/80 backdrop-blur-md border border-blue-100 text-blue-700 text-[11px] font-black uppercase tracking-[0.2em] mb-10 shadow-sm">
               <Sparkles className="h-4 w-4 mr-2.5 text-blue-600" />
-              Intelligence Meets Community
+              Find your Belongings
             </div>
             <h1 className="text-5xl tracking-tighter font-black text-gray-900 sm:text-6xl lg:text-7xl mb-10 leading-[1.0]">
               Find what <br /> you <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600">lost.</span>
