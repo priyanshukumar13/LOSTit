@@ -31,13 +31,11 @@
 - **QR Code Identity**: Every item gets a unique QR code. Scanners can verify ownership instantly.
 - **Privacy First**: Contact details are masked until a claim is verified.
 
-<<<<<<< HEAD
 =======
 ### 🧩 Ecosystem
 - **Web Dashboard**: Responsive React application for reporting and browsing.
 - **Chrome Extension**: "LOSTit Companion" for checking lost items while browsing the web.
 
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 ---
 
 ## ⚙️ Technical Architecture
@@ -59,7 +57,6 @@ The application follows a modern Event-Driven Serverless architecture:
 4.  **AI Engine**: Frontend communicates directly with **Google Gemini API** for:
     - Image Analysis (Gemini 2.5 Flash)
     - Conversational Support (Gemini 3 Pro)
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 
 ---
 
@@ -119,7 +116,6 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-<<<<<<< HEAD
 ## 🛡 License
 
 This project is licensed for educational use.
@@ -166,16 +162,6 @@ This role has `AdministratorAccess` pre-configured and will allow your Lambda to
 > **Note**: This project includes a "Demo Mode". If the AWS Backend is unreachable, the app automatically switches to local mock data to ensure a smooth UI experience.
 
 ---
-
-## 📸 Screenshots
-
-| Landing Page | Reporting Form |
-|:---:|:---:|
-| *(Add Screenshot)* | *(Add Screenshot)* |
-
-| Gallery | Chrome Extension |
-|:---:|:---:|
-| *(Add Screenshot)* | *(Add Screenshot)* |
 
 ---
 
