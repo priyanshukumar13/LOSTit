@@ -43,7 +43,7 @@
 The application follows a modern Event-Driven Serverless architecture:
 
 1.  **Frontend (React/Vite)**: Connects to AWS via REST/HTTP calls.
-<<<<<<< HEAD
+
 2.  **API Layer**: AWS Lambda Function URLs.
 3.  **Storage**: 
     - Images -> Direct upload to **S3** (Client-side signed URL).
