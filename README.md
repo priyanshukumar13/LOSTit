@@ -1,7 +1,4 @@
 
-=======
-
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
 # LOSTit - Smart Serverless Lost & Found System 🔍
 
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue)
