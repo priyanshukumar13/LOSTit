@@ -168,4 +168,3 @@ This role has `AdministratorAccess` pre-configured and will allow your Lambda to
 ## 🛡 License
 
 This project is licensed for educational use.
->>>>>>> f06eab9676dafbadedfbb7099f511d862f88b65d
